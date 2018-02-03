@@ -10,6 +10,18 @@
 /*------------------------*/
 /*         header         */
 /*------------------------*/
+header {
+  display: flex;
+}
+#logo {
+  flex-grow: 1;
+}
+.menu {
+  display:flex;
+  flex-grow: 10;
+  justify-content: flex-end;
+}
+  
 
 
 

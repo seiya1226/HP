@@ -21,31 +21,169 @@ header {
   flex-grow: 10;
   justify-content: flex-end;
 }
-  
+.img1 img{position: relative;
 
+}
+.img1 p {position: absolute;
+color: black;
+font-weight: bold;
+font-size: 2em;
+top:200px;
+left:300px;
+}
+
+.img1 img{
+  margin-bottom: 20px;
+}
 
 
 /*------------------------*/
 /*          news          */
 /*------------------------*/
-
+.news{
+display: flex;
+  font-weight: bold;
+  font-size: 2em;
+}
+.display{
+  text-align: center;
+}
 
 
 /*------------------------*/
 /*       interview       */
 /*------------------------*/
+.img2 img{
+  margin-top: 20px;
+}
 
 
 
 /*------------------------*/
 /*        business        */
 /*------------------------*/
+.img2 p {
+  font-weight: bold;
+}
+.img2 {
+  position: relative;
+  }
 
+.img2 p {
+  position: absolute;
+  top: 100px;
+  left: 190px;
+  margin: 30px;
+    color: black;
+  background: rgba(192,192,192.10);
+  font-size: 40px;
+  padding: 10px 100px 200px;
+  }
+  .img2 span {
+    position: absolute;
+    top: 330px;
+    left: 270px;
+    margin: 20px;
+      color: blue;
+
+    font-size: 30px;
+    padding: 5px 10px;
+    }
+
+    .img2 i {
+      position: absolute;
+      top: 250px;
+      left: 240px;
+      margin: 20px;
+        color: black;
+
+      font-size: 15px;
+      padding: 5px 10px;
+      }
 
 
 /*------------------------*/
 /*    company&recruit    */
 /*------------------------*/
+#company{
+	display: flex;
+}
+
+.left,
+.right{
+	width: 50%;
+	height: 300px;
+	position: relative;
+}
+
+.left{
+	background: url('../img/bg4.jpg') no-repeat;
+	background-size: cover;
+}
+
+.right{
+	background: url('../img/bg5.jpg') no-repeat;
+	background-size: cover;
+}
+
+.left-wrap{
+	background-color: rgba(129,244,225,0.2);
+	height: 300px;
+}
+
+.right-wrap{
+	background-color: rgba(255,114,159,0.2);
+	height: 300px;
+}
+
+#company h2{
+	font-size: 25px;
+	font-weight: bold;
+	padding: 20px 0 0 30px;
+}
+
+#company-more{
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+}
+
+
+/*------------------------*/
+/*         access         */
+/*------------------------*/
+
+
+#access{
+	background-color: #eee;
+}
+
+.access-wrap{
+	display: flex;
+}
+
+.map{
+	width: 400px;
+}
+
+.info{
+	width: 400px;
+	margin-left: auto;
+}
+
+.info th,
+.info td{
+	font-size: 14px;
+	padding-bottom: 10px;
+}
+
+.info th{
+	width: 25%;
+}
+
+.info td{
+	width: 75%;
+}
 
 
 

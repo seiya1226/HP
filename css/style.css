@@ -21,31 +21,187 @@ header {
   flex-grow: 10;
   justify-content: flex-end;
 }
-  
+.img1 img{position: relative;
 
+}
+.img1 p {position: absolute;
+color: black;
+font-weight: bold;
+font-size: 2em;
+top:200px;
+left:300px;
+}
+
+.img1 img{
+  margin-bottom: 20px;
+}
 
 
 /*------------------------*/
 /*          news          */
 /*------------------------*/
-
+.news{
+display: flex;
+  font-weight: bold;
+  font-size: 2em;
+}
+.display{
+  text-align: center;
+}
 
 
 /*------------------------*/
 /*       interview       */
 /*------------------------*/
+.img2 {
+  background-image: url(../img/bg2.jpg);
+  padding: 200px 0;
+  display: flex;
+  justify-content: center;
+}
+.img2>.interview{
+  width: 500px;
+  background-color: #dddd;
+  border: solid 2px #000;
+  padding: 20px;
+}
+.img2>.interview>.interview-title{
+  margin: 35px 0;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+.img2>.interview>.interview-content{
+  color: #aaa;
+  text-align: center;
+}
+.img2>.interview>.interview-link-box{
+  text-align: center;
+  margin: 20px 0;
+}
+.img2>.interview>.interview-link-box>.interview-link{
+  display: inline-block;
+  color: #00f;
+  border: solid 2px #00f;
+  padding: 5px 10px;
+  text-decoration: none;
+}
+.business-list
+ {
+  width: 500px;
+  background-color: #eeeeee;
+box-shadow: 5px 5px 10px;
+border-top-left-radius: 10px ;
 
-
+  padding: 20px;
+}
+.business{
+  padding:20px;
+}
+.business-list + .business-list{
+margin-left: 20px;
+}
 
 /*------------------------*/
 /*        business        */
 /*------------------------*/
+
+.zigyou-naiyou{
+  text-align: center;
+  font-weight: bold;
+}
+.zigyou-title
+{text-align: center;
+  font-weight: bold;
+}
+.business{
+  display: flex;
+}
 
 
 
 /*------------------------*/
 /*    company&recruit    */
 /*------------------------*/
+#company{
+	display: flex;
+}
+
+.left,
+.right{
+	width: 50%;
+	height: 300px;
+	position: relative;
+}
+
+.left{
+	background: url('../img/bg4.jpg') no-repeat;
+	background-size: cover;
+}
+
+.right{
+	background: url('../img/bg5.jpg') no-repeat;
+	background-size: cover;
+}
+
+.left-wrap{
+	background-color: rgba(129,244,225,0.2);
+	height: 300px;
+}
+
+.right-wrap{
+	background-color: rgba(255,114,159,0.2);
+	height: 300px;
+}
+
+#company h2{
+	font-size: 25px;
+	font-weight: bold;
+	padding: 20px 0 0 30px;
+}
+
+#company-more{
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+}
+
+
+/*------------------------*/
+/*         access         */
+/*------------------------*/
+
+
+#access{
+	background-color: #eee;
+}
+
+.access-wrap{
+	display: flex;
+}
+
+.map{
+	width: 400px;
+}
+
+.info{
+	width: 400px;
+	margin-left: auto;
+}
+
+.info th,
+.info td{
+	font-size: 14px;
+	padding-bottom: 10px;
+}
+
+.info th{
+	width: 25%;
+}
+
+.info td{
+	width: 75%;
+}
 
 
 

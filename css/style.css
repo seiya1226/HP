@@ -53,53 +53,71 @@ display: flex;
 /*------------------------*/
 /*       interview       */
 /*------------------------*/
-.img2 img{
-  margin-top: 20px;
+.img2 {
+  background-image: url(../img/bg2.jpg);
+  padding: 200px 0;
+  display: flex;
+  justify-content: center;
 }
+.img2>.interview{
+  width: 500px;
+  background-color: #dddd;
+  border: solid 2px #000;
+  padding: 20px;
+}
+.img2>.interview>.interview-title{
+  margin: 35px 0;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+.img2>.interview>.interview-content{
+  color: #aaa;
+  text-align: center;
+}
+.img2>.interview>.interview-link-box{
+  text-align: center;
+  margin: 20px 0;
+}
+.img2>.interview>.interview-link-box>.interview-link{
+  display: inline-block;
+  color: #00f;
+  border: solid 2px #00f;
+  padding: 5px 10px;
+  text-decoration: none;
+}
+.business-list
+ {
+  width: 500px;
+  background-color: #eeeeee;
+box-shadow: 5px 5px 10px;
+border-top-left-radius: 10px ;
 
-
+  padding: 20px;
+}
+.business{
+  padding:20px;
+}
+.business-list + .business-list{
+margin-left: 20px;
+}
 
 /*------------------------*/
 /*        business        */
 /*------------------------*/
-.img2 p {
+
+.zigyou-naiyou{
+  text-align: center;
   font-weight: bold;
 }
-.img2 {
-  position: relative;
-  }
+.zigyou-title
+{text-align: center;
+  font-weight: bold;
+}
+.business{
+  display: flex;
+}
 
-.img2 p {
-  position: absolute;
-  top: 100px;
-  left: 190px;
-  margin: 30px;
-    color: black;
-  background: rgba(192,192,192.10);
-  font-size: 40px;
-  padding: 10px 100px 200px;
-  }
-  .img2 span {
-    position: absolute;
-    top: 330px;
-    left: 270px;
-    margin: 20px;
-      color: blue;
-
-    font-size: 30px;
-    padding: 5px 10px;
-    }
-
-    .img2 i {
-      position: absolute;
-      top: 250px;
-      left: 240px;
-      margin: 20px;
-        color: black;
-
-      font-size: 15px;
-      padding: 5px 10px;
-      }
 
 
 /*------------------------*/
